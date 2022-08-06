@@ -24,6 +24,11 @@ body {
 	margin: 30px 100px 0 100px;
 }
 
+.logo {
+	filter: invert(60%) sepia(95%) saturate(7342%) hue-rotate(1deg)
+		brightness(113%) contrast(114%);
+}
+
 .nav-lists {
 	display: flex;
 }
@@ -103,6 +108,18 @@ body {
 	width: 300px;
 	margin: 10px;
 	padding: 30px;
+}
+
+#skills-container__box-product-design {
+	background-color: #c91b28;
+}
+
+#skills-container__box__icon-product-design {
+	color: #ffffff;
+}
+
+#skills-container__box__nomore {
+	color: #ffffff;
 }
 
 .skills-container__box__icon {
